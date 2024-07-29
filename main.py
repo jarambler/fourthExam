@@ -32,7 +32,7 @@ for h in range(new_width):
 # 偏移
 horizontal_offset = 0
 vertical_offset = 50
-new_img.paste(img, (horizontal_offset, horizontal_offset))
+new_img.paste(img, (horizontal_offset, vertical_offset))
 
 # 旋转图像(origin)
 new_img = new_img.rotate(10)
